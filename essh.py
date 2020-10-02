@@ -137,15 +137,6 @@ if __name__ == "__main__":
         required=False,
     )
 
-    parser.add_argument(
-        "-t",
-        "--threshold",
-        help="Choose threshold number",
-        type=int,
-        action="store",
-        required=False,
-    )
-
     args = parser.parse_args()
 
     if args.filename:
